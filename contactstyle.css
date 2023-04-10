@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'Poppins',sans-serif;
+}
+header {
+	background:rgb(211, 141, 29);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+nav {
+	background:rgba(23, 43, 54, .3);
+	padding: 10px;
+	text-align: center;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 20px;
+	font-weight: 600;
+	font-size: 20px;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+body{
+    background-image: url('SOLARPANEL.jpg');
+}
+
+button
+{
+background-color:green;
+width:100%;
+color:orange;
+padding:15px;
+margin:10px 0px;
+border:none;
+cursor:pointer;
+}
+
+input[type=text],input[type=password]
+{
+width:100%;
+margin:8px 0;
+padding:12px 20px;
+border:2px solid green;
+box-sizing:border-box;
+}
+button:hover
+{
+opacity:0.7;
+}
+.container{
+padding:25px;
+background:rgba(23, 43, 54, .3);
+backdrop-filter: blur(10px);
+}
+
+h1{
+    color: #fff;
+}
+
+.form{
+    padding: 150px;
+}
+label{
+    color: #fff;
+    font-size: 23px;
+}
+form:last-child{
+    color: #fff;
+    font-size: 23px;
+}
